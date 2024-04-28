@@ -1,0 +1,10 @@
+@import url(/resources/fonts/boska.css);
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Boska-Medium";
+}
