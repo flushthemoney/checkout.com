@@ -85,3 +85,18 @@ body {
   font-size: 1.5rem;
   margin-top: 10px;
 }
+
+.brandbar {
+  height: 22.5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.brandbar img {
+  width: 10rem;
+  height: 10rem;
+  align-self: center;
+  margin: 0 50px;
+}
