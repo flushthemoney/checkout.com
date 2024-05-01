@@ -1,3 +1,6 @@
+:root {
+}
+
 @font-face {
   font-family: "Boska-Variable";
   src: url("./fonts/Boska-Variable.woff2") format("woff2"),
@@ -16,6 +19,7 @@
 @import url(css/boska.css);
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -99,4 +103,23 @@ body {
   height: 10rem;
   align-self: center;
   margin: 0 50px;
+}
+
+.section-1 h3 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.section-1 {
+  margin: 0 15%;
+  width: 35%;
+}
+
+.section-1 .title {
+  margin: 5vh 0;
+  margin-top: 7.5vh;
+}
+.section-1 p {
+  font-weight: 400;
+  font-size: 1.5rem;
 }
