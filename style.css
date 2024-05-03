@@ -113,6 +113,7 @@ body {
 .section-1 {
   margin: 0 15%;
   width: 35%;
+  margin-bottom: 5rem;
 }
 
 .section-1 .title {
@@ -126,4 +127,11 @@ body {
 
 .imagebox img {
   width: 18rem;
+}
+
+.imagebox {
+  margin: 0 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
